@@ -1,0 +1,47 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.air__conditions{
+    background-color: #ebecf0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.see__more{
+  background-color: #3e93fd;
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.conditions__card{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    padding:7px 12px;
+}
+.conditions__card--text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #969ba0;
+    font-size: 20px;
+}
+
+.conditions__card--temp{
+    font-family:  Verdana, sans-serif;
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+
+.conditions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

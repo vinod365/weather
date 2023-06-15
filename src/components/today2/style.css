@@ -1,0 +1,46 @@
+.heading--text {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #969ba0;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.today__forcast {
+    background-color: #ebecf0;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+}
+
+.time {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #969ba0;
+ font-weight: bold;
+}
+
+.temp {
+    font-family:  Verdana, sans-serif;
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.forcast__timewise {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.forcast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:5px;
+    
+}
